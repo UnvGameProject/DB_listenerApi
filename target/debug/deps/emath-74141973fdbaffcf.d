@@ -1,0 +1,13 @@
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\emath-74141973fdbaffcf.rmeta: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\align.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\numeric.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\pos2.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rect.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rect_transform.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rot2.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\smart_aim.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\vec2.rs
+
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\emath-74141973fdbaffcf.d: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\align.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\numeric.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\pos2.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rect.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rect_transform.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rot2.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\smart_aim.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\vec2.rs
+
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\lib.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\align.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\numeric.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\pos2.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rect.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rect_transform.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\rot2.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\smart_aim.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\emath-0.17.0\src\vec2.rs:

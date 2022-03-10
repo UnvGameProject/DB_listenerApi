@@ -1,0 +1,12 @@
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\thiserror_impl-ed049d973c0a0e1f.dll: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\ast.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\attr.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\expand.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\fmt.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\generics.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\prop.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\valid.rs
+
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\thiserror_impl-ed049d973c0a0e1f.d: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\ast.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\attr.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\expand.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\fmt.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\generics.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\prop.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\valid.rs
+
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\lib.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\ast.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\attr.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\expand.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\fmt.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\generics.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\prop.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\thiserror-impl-1.0.30\src\valid.rs:

@@ -1,0 +1,13 @@
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\rgb-86960339ccf09730.rmeta: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\mod.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\array.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\tuple.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\ops.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\pixel.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\rgb.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\rgba.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\alt.rs
+
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\rgb-86960339ccf09730.d: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\mod.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\array.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\tuple.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\ops.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\pixel.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\rgb.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\rgba.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\alt.rs
+
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\lib.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\mod.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\array.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\convert\tuple.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\ops.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\pixel.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\rgb.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\internal\rgba.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\rgb-0.8.32\src\alt.rs:

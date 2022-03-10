@@ -1,0 +1,18 @@
+[package]
+name = "DB_API"
+version = "0.1.0"
+authors = ["Brandon Minter <S3767526@students.fscj.edu>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.17.0"
+mint = "0.5.9"
+confy= "0.4.0"
+tracing = "0.1.31"
+dotenv = "0.15.0"
+crossterm = "0.23.0"
+termimad = "0.20.0"
+newsapi = {path = "./dbevent_api", features = ["async"]}
+tokio = { version = "1.17.0", features = ["full"]}

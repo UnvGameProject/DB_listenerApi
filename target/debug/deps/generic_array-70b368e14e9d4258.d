@@ -1,0 +1,11 @@
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\generic_array-70b368e14e9d4258.rmeta: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\hex.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\impls.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\arr.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\functional.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\iter.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\sequence.rs
+
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\generic_array-70b368e14e9d4258.d: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\hex.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\impls.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\arr.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\functional.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\iter.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\sequence.rs
+
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\lib.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\hex.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\impls.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\arr.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\functional.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\iter.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\generic-array-0.14.5\src\sequence.rs:

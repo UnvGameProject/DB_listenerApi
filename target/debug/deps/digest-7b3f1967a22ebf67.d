@@ -1,0 +1,11 @@
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\digest-7b3f1967a22ebf67.rmeta: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\ct_variable.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\rt_variable.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\wrapper.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\xof_reader.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\digest.rs
+
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\digest-7b3f1967a22ebf67.d: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\ct_variable.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\rt_variable.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\wrapper.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\xof_reader.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\digest.rs
+
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\lib.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\ct_variable.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\rt_variable.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\wrapper.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\core_api\xof_reader.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\digest-0.10.3\src\digest.rs:

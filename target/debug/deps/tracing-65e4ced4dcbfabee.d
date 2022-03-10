@@ -1,0 +1,13 @@
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\tracing-65e4ced4dcbfabee.rmeta: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\macros.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\dispatcher.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\field.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\instrument.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\level_filters.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\span.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\stdlib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\subscriber.rs
+
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\tracing-65e4ced4dcbfabee.d: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\macros.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\dispatcher.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\field.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\instrument.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\level_filters.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\span.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\stdlib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\subscriber.rs
+
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\lib.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\macros.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\dispatcher.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\field.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\instrument.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\level_filters.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\span.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\stdlib.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.32\src\subscriber.rs:

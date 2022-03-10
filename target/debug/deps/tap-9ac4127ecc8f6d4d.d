@@ -1,0 +1,10 @@
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\tap-9ac4127ecc8f6d4d.rmeta: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\conv.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\pipe.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\tap.rs
+
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\libtap-9ac4127ecc8f6d4d.rlib: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\conv.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\pipe.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\tap.rs
+
+c:\Users\mint\Documents\code_testing\rust_projects\DB_Api\target\debug\deps\tap-9ac4127ecc8f6d4d.d: C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\lib.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\conv.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\pipe.rs C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\tap.rs
+
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\lib.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\conv.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\pipe.rs:
+C:\Users\mint\.cargo\registry\src\github.com-1ecc6299db9ec823\tap-1.0.1\src\tap.rs:
