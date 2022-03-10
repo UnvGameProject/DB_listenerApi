@@ -7,11 +7,11 @@ name = "DB_API"
 version = "0.1.0"
 dependencies = [
  "confy",
- "crossterm 0.23.0",
+ "crossterm",
+ "dbevent_api",
  "dotenv",
  "egui",
  "mint",
- "newsapi",
  "termimad",
  "tokio",
  "tracing",
@@ -250,7 +250,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b78645ef095d812eecfa830f67e35394314e31be71fdba59543274542c950013"
 dependencies = [
  "ansi_colours",
- "crossterm 0.22.1",
+ "crossterm",
 ]
 
 [[package]]
@@ -372,22 +372,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "crossterm"
-version = "0.23.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77b75a27dc8d220f1f8521ea69cd55a34d720a200ebb3a624d9aa19193d3b432"
-dependencies = [
- "bitflags",
- "crossterm_winapi",
- "libc",
- "mio 0.7.14",
- "parking_lot 0.12.0",
- "signal-hook",
- "signal-hook-mio",
- "winapi",
-]
-
-[[package]]
 name = "crossterm_winapi"
 version = "0.9.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -404,6 +388,20 @@ checksum = "57952ca27b5e3606ff4dd79b0020231aaf9d6aa76dc05fd30137538c50bd3ce8"
 dependencies = [
  "generic-array",
  "typenum",
+]
+
+[[package]]
+name = "dbevent_api"
+version = "0.1.0"
+dependencies = [
+ "mysql",
+ "reqwest",
+ "serde",
+ "serde_derive",
+ "serde_json",
+ "thiserror",
+ "ureq",
+ "url",
 ]
 
 [[package]]
@@ -1177,20 +1175,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "newsapi"
-version = "0.1.0"
-dependencies = [
- "mysql",
- "reqwest",
- "serde",
- "serde_derive",
- "serde_json",
- "thiserror",
- "ureq",
- "url",
-]
-
-[[package]]
 name = "nix"
 version = "0.23.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1855,7 +1839,7 @@ checksum = "06968d34307feb19a7ab8e5678d5b318c9021c16b0a913d76dbdef943391cf0b"
 dependencies = [
  "coolor",
  "crossbeam",
- "crossterm 0.22.1",
+ "crossterm",
  "minimad",
  "thiserror",
  "unicode-width",

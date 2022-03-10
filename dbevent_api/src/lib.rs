@@ -3,8 +3,8 @@
 use reqwest::Method;
 use serde_derive::Deserialize;
 use url::Url;
-use mysql::*;
-use mysql::prelude::*;
+// use mysql::*;
+// use mysql::prelude::*;
 
 const BASE_URL: &str = "https://newsapi.org/v2";
 
@@ -24,8 +24,6 @@ pub enum NewsApiError {
     #[error("Async request failed")]
     #[cfg(feature = "async")]
     AsyncRequestFailed(#[from] reqwest::Error),
-    #[error("Failed Database Query")]
-    Failed(#[from] mysql::Error)
 }
 
 #[derive(Deserialize, Debug)]
@@ -103,14 +101,15 @@ impl NewsAPI {
         self.country = country;
         self
     }
-    fn prepare_url(&self) -> Result<NewsApiError>{
+
+    fn prepare_url(&self) -> Result<String, NewsApiError>{
         let mut url = Url::parse(BASE_URL)?;
         url.path_segments_mut().unwrap().push(&self.endpoint.to_string());
         
         let country = format!("country={}", self.country.to_string());
         url.set_query(Some(&country));
         Ok(url.to_string())
-        // todo!();
+        
     }
     pub fn fetch(&self) -> Result<NewsAPIResponse, NewsApiError>{
         let url = self.prepare_url()?;
@@ -118,10 +117,10 @@ impl NewsAPI {
         let response: NewsAPIResponse = req.call()?.into_json()?;
         match response.status.as_str() {
             "ok" => return Ok(response),
-            _=> return Err(map_response_err(response.code))
-            
+            _ => return Err(map_response_err(response.code))
         }
-        todo!()
+        
+        //todo!()
     }
     #[cfg(feature = "async")]
     pub async fn fetch_async(&self) -> Result<NewsAPIResponse, NewsApiError>{
@@ -159,33 +158,33 @@ impl NewsAPI {
      }
  }
 
-    pub fn db_insert(articles :&Vec<Article>) -> Result<NewsAPIResponse> {
+    // pub fn db_insert(articles :&Vec<Article>) -> Result<Error> {
 
-        let db_url = "mysql://rootpassword@localhost:3306/INSERTDBNAMEHERE";
-        let pool = Pool::new(db_url)?;
-        let mut conn = pool.get_conn()?;
-                                                //create table
-        conn.query_drop(
-            r"CREATE TEMPORARY TABLE Articles(Article_title, Article_url)
-            Article_title not null,
-            Article_url text
-            )")?;
-                                                //insert to db based on response
-        conn.batch(
-            r"INSERT INTO Articles (Article_title, Article_url)
-            VALUES (:Article_title, :Article_url)",
-            articles.iter().map(|A| params! {
-                "title" => A.title,
-                "Article_url" => A.Article_url,
-            })
-        )?;
-                                                    //select from db
-        let selected_articles = conn
-        .query_map(
-            "SELECT item_id, Article_title, Article_url",
-            |(item_id, Article_title,Article_url)| {
-                Article{title: Article_title, url: Article_url}
-            }
-        )?;
+    //     let db_url = "mysql://rootpassword@localhost:3306/INSERTDBNAMEHERE";
+    //     let pool = Pool::new(db_url)?;
+    //     let mut conn = pool.get_conn()?;
+    //                                             //create table
+    //     conn.query_drop(
+    //         r"CREATE TEMPORARY TABLE Articles(Article_title, Article_url)
+    //         Article_title not null,
+    //         Article_url text
+    //         )")?;
+    //                                             //insert to db based on response
+    //     conn.batch(
+    //         r"INSERT INTO Articles (Article_title, Article_url)
+    //         VALUES (:Article_title, :Article_url)",
+    //         articles.iter().map(|A| params! {
+    //             "title" => A.title,
+    //             "Article_url" => A.Article_url,
+    //         })
+    //     )?;
+    //                                                 //select from db
+    //     let selected_articles = conn
+    //     .query_map(
+    //         "SELECT item_id, Article_title, Article_url",
+    //         |(item_id, Article_title,Article_url)| {
+    //             Article{title: Article_title, url: Article_url}
+    //         }
+    //     )?;
 
-}
+// }
