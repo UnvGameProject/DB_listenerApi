@@ -4,10 +4,9 @@
 #![allow(unused_imports)]
 use std::error::Error;
 use dotenv::dotenv;
+
 use dbevent_api::{NewsAPI, Endpoint, Country, Article, NewsAPIResponse};
 use crate::theme;
-
-
 
 fn render_articles(articles: &Vec<Article>){ //iterate through response and print to cli
     let theme = theme::default();
@@ -30,8 +29,9 @@ pub async fn run() -> Result<(), Box<dyn Error>> {
     newsapi.endpoint(Endpoint::TopHeadlines).country(Country::Us);
     let newsapi_response: NewsAPIResponse = newsapi.fetch_async().await?;
 
-    let mut db_post = newsapi;      //make db_insert a parameter of Vec! 
-    let db_postupdate: NewsAPIResponse = dbpost.db_insert(&newsapi_response.articles()).await?;
+    //let mut db_post = newsapi_response;      //make db_insert a parameter of Vec! 
+    //
+    //let db_postupdate: NewsAPIResponse = dbpost.db_insert(&newsapi_response.articles()).await?;
     render_articles(&newsapi_response.articles());
 
     Ok(())
