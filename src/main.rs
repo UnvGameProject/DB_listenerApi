@@ -1,9 +1,13 @@
 //main calls to run the program will go here...
 #![allow(non_snake_case)]
 #![allow(unused_must_use)]
-use std::error::Error;
+#![allow(unused_imports)]
+#![allow(dead_code)]
+use std::{error::Error, borrow::BorrowMut};
 mod theme;
 mod cli_vers;
+mod pathprep;
+mod table_edit;
                 //Defining functions below. 
                                                 //    "dyn error" is ptr to obj that
                                                 //     implements error trait
@@ -14,7 +18,8 @@ mod cli_vers;
                                                 //     In case of success, chain call to "into_string"
                                                 //     returns result also, "?" extracts success value
                                                 //     http response is stored in "response" variable 
-fn main () -> Result<(), Box<dyn Error>>{
-    println!("successful build");
-    cli_vers::run()
+fn main () /*-> Result<(), Box<dyn Error>>*/{
+   println!("successful build"); 
+   cli_vers::run();
+    
 }
