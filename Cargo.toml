@@ -14,5 +14,7 @@ tracing = "0.1.31"
 dotenv = "0.15.0"
 crossterm = "0.22.1"
 termimad = "0.20.0"
+mysql = "22.1.0"
 dbevent_api = {path = "./dbevent_api", features = ["async"]}
 tokio = { version = "1.17.0", features = ["full"]}
+url = "2.2.2"

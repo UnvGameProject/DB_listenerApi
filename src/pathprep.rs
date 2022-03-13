@@ -1,0 +1,61 @@
+//This section, tho stupidly excessive, preps the path to the db 
+#![allow(unused_variables)]
+#![allow(unused_mut)]
+#[derive(Debug)]
+struct DbUrl {
+    db_base: String,
+    user: String,
+    pass: String,
+    host: String,
+    port: String,
+    db_name: String
+    }
+    impl DbUrl {
+        fn new(base: &str, un: &str, pw: &str, hst: &str, prt: &str, dbn: &str) -> DbUrl{
+            DbUrl{
+                db_base:base.to_string(),
+                user:un.to_string(),
+                pass:pw.to_string(),
+                host:hst.to_string(),
+                port:prt.to_string(),
+                db_name:dbn.to_string()
+            } // end db_url instance-def
+        } //end fn new
+        fn create_path (&self) -> String{
+            format!("{}://{}:{}@{}:{}/{}", 
+            self.db_base, self.user, self.pass, self.host, self.port, self.db_name)
+        }
+    } //end impl db_url
+
+    use std::fmt::Debug;
+
+pub fn run() -> String {
+    let mut dbt = String::new();
+    println!("Enter the Database type (eg. mysql): ");
+    let dbtn = std::io::stdin().read_line(&mut dbt);
+
+    let mut usr= String::new();
+    println!("Enter Username: ");
+    let usrn = std::io::stdin().read_line(&mut usr);
+
+    let mut psw = String::new();
+    println!("Enter Password: ");
+    let pswn = std::io::stdin().read_line(&mut psw);
+
+    println!("Enter Host: ");
+    let mut hst = String::new();
+    let hstn = std::io::stdin().read_line(&mut hst);
+
+    println!("Enter Port: ");
+    let mut prt = String::new();
+    let prtn = std::io::stdin().read_line(&mut prt);
+
+    println!("Enter Database Name: ");
+    let mut dbn= String::new();
+    let dbN = std::io::stdin().read_line(&mut dbn);
+    
+    let dbu = DbUrl::new(dbt.as_str(), &usr.as_str(), &psw, &hst, &prt, &dbn);
+    let dburl: String = format!("{}://{}:{}@{}:{}/{}",dbt.trim(), usr.trim(), psw.trim(), hst.trim(), prt.trim(), dbn.trim());
+    println!("{}", dburl);
+    dburl
+    } //end run

@@ -12,9 +12,11 @@ dependencies = [
  "dotenv",
  "egui",
  "mint",
+ "mysql",
  "termimad",
  "tokio",
  "tracing",
+ "url",
 ]
 
 [[package]]

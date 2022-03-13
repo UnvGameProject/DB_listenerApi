@@ -4,9 +4,9 @@
 #![allow(unused_imports)]
 use std::error::Error;
 use dotenv::dotenv;
-
 use dbevent_api::{NewsAPI, Endpoint, Country, Article, NewsAPIResponse};
-use crate::theme;
+use mysql::PooledConn;
+use crate::{theme, pathprep, table_edit};
 
 fn render_articles(articles: &Vec<Article>){ //iterate through response and print to cli
     let theme = theme::default();
@@ -28,11 +28,14 @@ pub async fn run() -> Result<(), Box<dyn Error>> {
     let mut newsapi = NewsAPI::new(&api_key);
     newsapi.endpoint(Endpoint::TopHeadlines).country(Country::Us);
     let newsapi_response: NewsAPIResponse = newsapi.fetch_async().await?;
+    let newsapi_response2: NewsAPIResponse = newsapi.fetch_async().await?;
 
-    //let mut db_post = newsapi_response;      //make db_insert a parameter of Vec! 
-    //
-    //let db_postupdate: NewsAPIResponse = dbpost.db_insert(&newsapi_response.articles()).await?;
     render_articles(&newsapi_response.articles());
-
+    println!("...Moving to path prep");
+    let db_path= pathprep::run();
+    println!("{} in main", db_path);
+    let poolpass:PooledConn = table_edit::run(db_path).unwrap();
+    let newsapi_response2: NewsAPIResponse = newsapi.fetch_async().await?;
+    table_edit::add_from_newsapi(poolpass, &newsapi_response2.articles());    
     Ok(())
 }

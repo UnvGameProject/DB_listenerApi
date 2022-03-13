@@ -3,8 +3,7 @@
 use reqwest::Method;
 use serde_derive::Deserialize;
 use url::Url;
-// use mysql::*;
-// use mysql::prelude::*;
+
 
 const BASE_URL: &str = "https://newsapi.org/v2";
 
@@ -41,8 +40,8 @@ impl NewsAPIResponse {
 
 #[derive(Deserialize, Debug)]
 pub struct Article {
-    title: String,
-    url: String,
+    pub title: String,
+    pub url: String,
 }
 impl Article{
     pub fn title(&self) -> &str{
@@ -157,34 +156,3 @@ impl NewsAPI {
          NewsApiError::BadRequest("Unknown error")
      }
  }
-
-    // pub fn db_insert(articles :&Vec<Article>) -> Result<Error> {
-
-    //     let db_url = "mysql://rootpassword@localhost:3306/INSERTDBNAMEHERE";
-    //     let pool = Pool::new(db_url)?;
-    //     let mut conn = pool.get_conn()?;
-    //                                             //create table
-    //     conn.query_drop(
-    //         r"CREATE TEMPORARY TABLE Articles(Article_title, Article_url)
-    //         Article_title not null,
-    //         Article_url text
-    //         )")?;
-    //                                             //insert to db based on response
-    //     conn.batch(
-    //         r"INSERT INTO Articles (Article_title, Article_url)
-    //         VALUES (:Article_title, :Article_url)",
-    //         articles.iter().map(|A| params! {
-    //             "title" => A.title,
-    //             "Article_url" => A.Article_url,
-    //         })
-    //     )?;
-    //                                                 //select from db
-    //     let selected_articles = conn
-    //     .query_map(
-    //         "SELECT item_id, Article_title, Article_url",
-    //         |(item_id, Article_title,Article_url)| {
-    //             Article{title: Article_title, url: Article_url}
-    //         }
-    //     )?;
-
-// }
