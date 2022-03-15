@@ -33,7 +33,7 @@ pub fn run(path: String) -> Result<PooledConn> {
 
 
 //Note insert will not work if there is a null field >mysql safety thing
-pub fn add_from_newsapi(poolpass: PooledConn ,articles: &Vec<Article>) -> Result<()> {
+pub fn add_from_newsapi(poolpass: PooledConn , articles: &Vec<Article>) -> Result<PooledConn> {
     println!("testing insert from online 3rd party api");
     let mut conn = poolpass;
     conn.exec_batch(
@@ -49,7 +49,7 @@ pub fn add_from_newsapi(poolpass: PooledConn ,articles: &Vec<Article>) -> Result
         println!("{}", i.url());
         println!("done");
     }
-    Ok(())
+    Ok(conn)
 }
 
 
