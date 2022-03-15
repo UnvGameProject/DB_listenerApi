@@ -8,6 +8,8 @@ mod theme;
 mod cli_vers;
 mod pathprep;
 mod table_edit;
+mod controller;
+//mod scrap;
                 //Defining functions below. 
                                                 //    "dyn error" is ptr to obj that
                                                 //     implements error trait
@@ -21,5 +23,6 @@ mod table_edit;
 fn main () /*-> Result<(), Box<dyn Error>>*/{
    println!("successful build"); 
    cli_vers::run();
-    
+   
+
 }

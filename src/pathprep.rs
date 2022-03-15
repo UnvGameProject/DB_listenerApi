@@ -2,16 +2,16 @@
 #![allow(unused_variables)]
 #![allow(unused_mut)]
 #[derive(Debug)]
-struct DbUrl {
-    db_base: String,
-    user: String,
+pub struct DbUrl {
+    pub db_base: String,
+    pub user: String,
     pass: String,
-    host: String,
+    pub host: String,
     port: String,
-    db_name: String
+    pub db_name: String
     }
     impl DbUrl {
-        fn new(base: &str, un: &str, pw: &str, hst: &str, prt: &str, dbn: &str) -> DbUrl{
+        pub fn new(base: &str, un: &str, pw: &str, hst: &str, prt: &str, dbn: &str) -> DbUrl{
             DbUrl{
                 db_base:base.to_string(),
                 user:un.to_string(),
@@ -21,9 +21,12 @@ struct DbUrl {
                 db_name:dbn.to_string()
             } // end db_url instance-def
         } //end fn new
-        fn create_path (&self) -> String{
+        pub fn create_path (&self) -> String{
             format!("{}://{}:{}@{}:{}/{}", 
             self.db_base, self.user, self.pass, self.host, self.port, self.db_name)
+        }
+        pub fn db_name(&self) -> &str {
+            &self.db_name
         }
     } //end impl db_url
 
@@ -54,8 +57,8 @@ pub fn run() -> String {
     let mut dbn= String::new();
     let dbN = std::io::stdin().read_line(&mut dbn);
     
-    let dbu = DbUrl::new(dbt.as_str(), &usr.as_str(), &psw, &hst, &prt, &dbn);
+    let mut dbu = DbUrl::new(dbt.as_str(), &usr.as_str(), &psw, &hst, &prt, &dbn);
     let dburl: String = format!("{}://{}:{}@{}:{}/{}",dbt.trim(), usr.trim(), psw.trim(), hst.trim(), prt.trim(), dbn.trim());
-    println!("{}", dburl);
-    dburl
+    // println!("{}", dburl); // or dbn
+    dburl //and >> , dbu.db_name)
     } //end run
