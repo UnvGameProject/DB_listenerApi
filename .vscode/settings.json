@@ -8,7 +8,7 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "rustyconnection",
+            "name": "rusty",
             "database": "testdb",
             "username": "admin",
             "password": "admin"

@@ -33,7 +33,7 @@ pub async fn run() -> Result<(), Box<dyn Error>> {
     render_articles(&newsapi_response.articles());
     println!("...Moving to path prep");
     let db_path = pathprep::run();
-    println!("{} in main", db_path);
+    println!("\n {} -connected", db_path);
     let poolpass:PooledConn = table_edit::run(db_path).unwrap();
     let newsapi_response2: NewsAPIResponse = newsapi.fetch_async().await?;
     let newpass = table_edit::add_from_newsapi(poolpass, &newsapi_response2.articles()).unwrap();    
