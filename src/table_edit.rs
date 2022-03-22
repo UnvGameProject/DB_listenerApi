@@ -16,25 +16,25 @@ pub fn run(path: String) -> Result<PooledConn> {
     let opts = Opts::from_url(&db_url)?;
     let pool = Pool::new(opts).unwrap();
     let mut conn = pool.get_conn().unwrap();
-    println!("{} -correctly displayed in table_edit", db_url);
+    println!("\n");
     conn.exec_drop(
-                r"INSERT INTO testdb.sample_event_table (title, status, priority, description) 
-                VALUES (:title, :status, :priority, :description)",
+                r"INSERT INTO testdb.sample_event_table (title, e_status, priority, description) 
+                VALUES (:title, :e_status, :priority, :description)",
                 params! {
                     "title" => "Rust insert",
-                    "status" => "10",
+                    "e_status" => "complete",
                     "priority" => "1",
                     "description" => "this is direct from rust",
                 },
                 ).unwrap();
-    println!("insert to database successful");
+    
     Ok(conn)
 }
 
 
 //Note insert will not work if there is a null field >mysql safety thing
 pub fn add_from_newsapi(poolpass: PooledConn , articles: &Vec<Article>) -> Result<PooledConn> {
-    println!("testing insert from online 3rd party api");
+    println!("testing insert from online 3rd party api\n");
     let mut conn = poolpass;
     conn.exec_batch(
         r"INSERT INTO testdb.article_test (article_title, article_url)

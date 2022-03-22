@@ -23,7 +23,7 @@ impl Tablez{
 pub fn run(poolpass: PooledConn) -> Result<()> {
     let mut conn = poolpass;
     let table_stmt = format!("SHOW TABLES IN testdb");
-    println!("{}", table_stmt);
+    println!("\n{}  as JSON", table_stmt);
     #[allow(unused_mut)]
     #[allow(unused_variables)]
     let mut db_tables:Vec<String> = Vec::new();
@@ -31,7 +31,23 @@ pub fn run(poolpass: PooledConn) -> Result<()> {
     #[allow(unused_mut)]
     let mut db_tables =  selection.query_iter(
         table_stmt).unwrap(); //might need & pointer ref
-    println!("{:?}", db_tables);
+    println!("\n");
+    println!("{:?} \n", db_tables);
+    println!("iterate through json keys...values still encoded: \n");
+    #[allow(unused_variables)]
+    let mut sets = 0;
+    #[allow(deprecated)]
+    while let Some(result_set) = db_tables.next_set() {
+        let result_set = result_set;
+        sets += 1;
+
+        println!("moving through values: {:?}", result_set.columns());
+        println!("result set meta: {:?} {:?}",
+        result_set.affected_rows(),
+        result_set.info_str(),
+        );
+    };
+    //println!("{:?}", &newform); 
     // selection.rollback();
     
     Ok(())
